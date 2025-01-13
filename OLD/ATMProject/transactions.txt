@@ -1,0 +1,7 @@
+Account Number: 0395798  ||  2000$  ||  deposit  ||  10 Jan 2025 23:24:27 GMT
+Account Number: 0380794  ||  1500$  ||  deposit  ||  10 Jan 2025 23:34:17 GMT
+Account Number: 0380794  ||  1500$  ||  deposit  ||  10 Jan 2025 23:34:41 GMT
+Account Number: 0380794  ||  1000$  ||  withdraw  ||  10 Jan 2025 23:34:47 GMT
+Account Number: 0395798  ||  15623$  ||  deposit  ||  11 Jan 2025 00:12:21 GMT
+Account Number: 0395798  ||  6532$  ||  withdraw  ||  11 Jan 2025 00:12:25 GMT
+Account Number: 0395798  ||  1000$  ||  deposit  ||  11 Jan 2025 00:12:35 GMT
