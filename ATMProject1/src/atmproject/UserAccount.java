@@ -128,8 +128,8 @@ public class UserAccount {
         }
     }
 
-    public void checkBalance() {
-        System.out.println("Your current account balance is " + balance + "$");
+    public double checkBalance() {
+        return balance;
     }
 
     public ArrayList<String> viewTransactionHistory(String date) {

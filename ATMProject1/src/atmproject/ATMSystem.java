@@ -224,7 +224,7 @@ public class ATMSystem {
                         }
                         break;
                     case 3:
-                        user.checkBalance();
+                        System.out.println("Your current account balance is " + user.checkBalance() + "$");
                         break;
                     case 4:
                         viewTransactionHistory(user);
@@ -411,8 +411,7 @@ public class ATMSystem {
             for (UserAccount user : Users) {
                 if (user.getAccountNumber().equals(accountNumber)) {
                     accountFound = true;
-                    System.out.print("Account found: Name: " + user.getFullName() + ", PhoneNumber: " + user.getPhoneNumber() + ", Balance: ");
-                    user.checkBalance();
+                    System.out.println("Account found: Name: " + user.getFullName() + ", PhoneNumber: " + user.getPhoneNumber() + ", Balance: " + user.checkBalance());
                 }
             }
             if (!accountFound) {
